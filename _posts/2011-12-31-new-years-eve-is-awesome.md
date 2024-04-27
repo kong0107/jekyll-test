@@ -1,3 +1,7 @@
+---
+title: New Year's Eve is Awesome
+---
+
 # title
 
 content
