@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-source: .
+source: ./jekyll-test
 incremental: false
 highlighter: rouge
 gist:
@@ -8,3 +8,6 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+lang: 'zh-TW'
+title: '測試網站'
