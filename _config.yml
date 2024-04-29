@@ -11,6 +11,8 @@ kramdown:
 
 lang: 'zh-TW'
 title: '測試網站'
-plugins: ["jekyll-paginate"]
+
+plugins:
+  - "jekyll-paginate"
 paginate: 20
 paginate_path: "/blog/page:num/"
