@@ -15,4 +15,4 @@ title: '測試網站'
 plugins:
   - "jekyll-paginate"
 paginate: 20
-paginate_path: "/page:num/"
+paginate_path: "/blog/page:num/"

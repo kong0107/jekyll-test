@@ -1,9 +1,9 @@
 ---
 layout: default
+title: Blog
 ---
-
-{{ "Hello World!" | downcase }}
-
+<h1>Latest Posts</h1>
+aaa
 <ul>
   {% for post in paginator.posts %}
     <li>
@@ -33,3 +33,14 @@ layout: default
     <span class="next ">Next</span>
   {% endif %}
 </div>
+
+<hr>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
