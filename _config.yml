@@ -11,3 +11,5 @@ kramdown:
 
 lang: 'zh-TW'
 title: '測試網站'
+paginate: 20
+paginate_path: "/blog/page:num/"
